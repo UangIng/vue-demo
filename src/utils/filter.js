@@ -21,6 +21,10 @@ const moneyFilter = function (value) {
     }
 }
 
+/**
+ * 银行卡号过滤器
+ * @param {} val 
+ */
 const hideMiddle = function (val) {
     val = val.toString();
     var res = "****    " + "****    " + "****    "+"**" + val.substring(val.length - 2, val.length);

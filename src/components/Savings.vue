@@ -48,7 +48,7 @@ export default {
 
 <style scoped>
 .Savings {
-  width: 660px;
+  width: 100%;
   height: 240px;
 }
 .Savings .line {

@@ -48,7 +48,6 @@ export default {
                 formatter: function(argument) {
                   var html;
                   html = "{a|$5,349}\r\n\r\n" + "{b|Balance}";
-                  // html="<p style='fontSize:20px;color:#000'>$5,349$5,349</p>"+"<p style='fontSize:12px;color:#D0D1D5;'>Balance</p>"
                   return html;
                 },
                 textStyle: {
