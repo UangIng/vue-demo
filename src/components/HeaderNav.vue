@@ -35,7 +35,6 @@ export default {
   },
   methods: {
     handleSelect(key, keyPath) {
-      console.log(key + "," + keyPath);
       this.$emit("handleSelect", { key: key, keyPath: keyPath });
     }
   }

@@ -124,6 +124,7 @@ export default {
 }
 .index .content .icontainer #el-col-1{
   position: relative;
+  margin-right: 15px;
 }
 .index .content .icontainer .middle-bottom{
   margin-left: auto;
